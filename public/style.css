@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav a{
+    color: white;
+}
+.school{
+    background-image: url("/src/img/school2.jpg");
+    /* height: 800px;
+    width: max-content; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 680px;
+    
+}
+.text{
+    padding-left: 400px;
+    padding-top: 100px;
+    color: white;
+}
+
+.school h1{
+    color: blue;
+    font-size: 60px;
+    font-weight: bold;
+}
+.school h2{
+    color:blue ;
+    font-size: 40px;
+    font-weight:bold ;
+    padding-left:650px;
+}
